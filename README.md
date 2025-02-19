@@ -36,6 +36,9 @@ Cobertura de testes unitários na camada Domain. ✅
 
 Documentação e explicação das escolhas. ✅
 
+---------------------------------------------------------
+# Respostas e Observações
+
 ### Observação
 
 Pelos conceitos pregados pela **Clean Architecture**, a **interface do repositório** deveria estar localizada na camada **Domain**, mas sua **implementação** ficaria na camada **Data**, para respeitar a **responsabilidade** de cada camada e daí sim os testes ficarem da repository ficar na camada de data. De qualquer forma, os testes foram feitos na camada **Data** para **repository**.
